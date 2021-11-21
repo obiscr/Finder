@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Images\**" />
+    <EmbeddedResource Remove="Images\**" />
+    <None Remove="Images\**" />
+    <Page Remove="Images\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\1.png" />
+    <None Remove="Resources\2.png" />
+    <None Remove="Resources\3.png" />
+    <None Remove="Resources\4.png" />
+    <None Remove="Resources\back.png" />
+    <None Remove="Resources\back.svg" />
+    <None Remove="Resources\disk-drive.png" />
+    <None Remove="Resources\forward.png" />
+    <None Remove="Resources\forward.svg" />
+    <None Remove="Resources\head.png" />
+    <None Remove="Resources\search.png" />
+    <None Remove="Resources\setting.png" />
+    <None Remove="Resources\share.png" />
+    <None Remove="Resources\show_art.png" />
+    <None Remove="Resources\show_column.png" />
+    <None Remove="Resources\show_icon.png" />
+    <None Remove="Resources\show_list.png" />
+    <None Remove="Resources\sort.png" />
+    <None Remove="Resources\tags.png" />
+    <None Remove="Resources\terminal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\back.png" />
+    <Resource Include="Resources\disk-drive.png" />
+    <Resource Include="Resources\forward.png" />
+    <Resource Include="Resources\search.png" />
+    <Resource Include="Resources\setting.png" />
+    <Resource Include="Resources\share.png" />
+    <Resource Include="Resources\show_art.png" />
+    <Resource Include="Resources\show_column.png" />
+    <Resource Include="Resources\show_icon.png" />
+    <Resource Include="Resources\show_list.png" />
+    <Resource Include="Resources\sort.png" />
+    <Resource Include="Resources\tags.png" />
+    <Resource Include="Resources\terminal.png" />
+  </ItemGroup>
+
+</Project>

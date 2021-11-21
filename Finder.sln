@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finder", "Finder.csproj", "{20DA7D54-CC11-49B5-A50F-09C6992761C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20DA7D54-CC11-49B5-A50F-09C6992761C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20DA7D54-CC11-49B5-A50F-09C6992761C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20DA7D54-CC11-49B5-A50F-09C6992761C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20DA7D54-CC11-49B5-A50F-09C6992761C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D35B3AC0-6AAA-4BA3-8FC4-5E8D6452A64E}
+	EndGlobalSection
+EndGlobal
